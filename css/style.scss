@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Poppins:700&display=swap');
+
+$DCyan: #00242d;
+$PaleBlue: #f4faff;
+$Pink: #ff51bf;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Global
+ul,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul li,
+button {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+// Header
+header {
+    padding: 21px 21px 107px 21px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    img {
+        align-self: center;
+        width: 87px;
+    }
+
+    button {
+        color: $Pink;
+        border: 1px solid $Pink;
+        border-radius: 100px;
+        justify-self: flex-end;
+        align-self: center;
+        width: 70px;
+        height: 23px;
+    }
+
+    @media (min-width: 768px) {
+
+        img {
+            width: 181px;
+        }
+
+        button {
+            width: 101px;
+            height: 33px;
+        }
+    }
+
+    @media (min-width: 1220px) {
+        padding: 59px 59px 182px 59px;
+    }
+}
+
+// Hero
+.hero {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 90px;
+    padding: 0 30px;
+
+    .hero_text {
+        text-align: center;
+
+        p {
+            padding: 29px 0 42px 0;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+
+    button {
+        width: 178px;
+        padding: 1em;
+        color: white;
+        background: $Pink;
+        border-radius: 33px;
+    }
+
+    .ratings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .rate {
+
+            &:nth-child(1) {
+                margin-bottom: 82px;
+            }
+
+            width: 55%;
+
+            img {
+                width: 30px;
+            }
+
+            h2 {
+                font-size: 3.5em;
+            }
+
+            p {
+                color: rgb(85, 85, 85);
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        img {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+
+    @media (min-width: 1220px) {
+        .hero_text {
+            h1 {
+                font-size: 2.5em;
+                padding: 0 163px;
+            }
+
+            p {
+                font-size: 1.1em;
+                padding: 36px 350px;
+            }
+        }
+
+        button {
+            padding: 0;
+            width: 298px;
+            height: 50px;
+            font-size: 1em;
+        }
+
+        img {
+            width: 100%;
+            margin: 0;
+            padding: 0 153px;
+        }
+    }
+}
+
+// Main
+.main {}
