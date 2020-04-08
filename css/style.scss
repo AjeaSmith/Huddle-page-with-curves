@@ -28,6 +28,19 @@ button {
     cursor: pointer;
 }
 
+.grow,
+.users {
+    background-color: $PaleBlue;
+
+    img {
+        width: 100%;
+    }
+
+    svg {
+        display: block;
+    }
+}
+
 button {
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -130,6 +143,20 @@ header {
             width: 80%;
             margin: 0 auto;
         }
+
+        .ratings {
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .rate {
+                width: 25%;
+
+                &:nth-child(1) {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 
     @media (min-width: 1220px) {
@@ -161,4 +188,7 @@ header {
 }
 
 // Main
-.main {}
+.main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
