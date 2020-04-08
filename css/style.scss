@@ -23,6 +23,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width: 100px;
+}
+
 ul li,
 button {
     cursor: pointer;
@@ -30,8 +34,6 @@ button {
 
 .grow,
 .users {
-    background-color: $PaleBlue;
-
     img {
         width: 100%;
     }
@@ -191,4 +193,56 @@ header {
 .main {
     display: grid;
     grid-template-rows: auto auto auto;
+    row-gap: 50px;
+
+    .grow {
+        margin-top: 5em;
+
+        &:before {
+            content: "";
+            width: 380px;
+            height: 112px;
+            display: block;
+            background-image: url("../images/bg-section-top-mobile-1.svg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        &:after {
+            content: "";
+            width: 380px;
+            height: 112px;
+            display: block;
+            background-image: url("../images/bg-section-bottom-mobile-1.svg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        img {
+            width: 239px;
+        }
+
+        .grow_wrapper {
+            height: 462px;
+            padding: 0 26px;
+            background-color: $PaleBlue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .grow_text {
+                text-align: center;
+                order: 2;
+
+                h2 {
+                    margin-bottom: 18px;
+                }
+            }
+
+            img {
+                margin-bottom: 64px;
+            }
+        }
+    }
 }
