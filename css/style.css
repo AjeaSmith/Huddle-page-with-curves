@@ -484,6 +484,9 @@ header button {
   .main .grow .grow_wrapper .grow_text {
     width: 40%;
   }
+  .main .grow .grow_wrapper .grow_text h2 {
+    font-size: 2em;
+  }
   .main .grow .grow_wrapper img {
     width: 50%;
     max-width: 600px;
@@ -491,6 +494,9 @@ header button {
   .main .conversations .conversations_wrapper .conversation_text {
     width: 40%;
     text-align: left;
+  }
+  .main .conversations .conversations_wrapper .conversation_text h2 {
+    font-size: 2em;
   }
   .main .conversations .conversations_wrapper img {
     width: 50%;
@@ -502,6 +508,9 @@ header button {
   .main .users .users_wrapper img {
     width: 50%;
     max-width: 600px;
+  }
+  .main .users .users_wrapper .users_text h2 {
+    font-size: 2em;
   }
   .main .users:before {
     content: "";

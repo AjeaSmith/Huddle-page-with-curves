@@ -468,6 +468,11 @@ header {
             .grow_wrapper {
                 .grow_text {
                     width: 40%;
+
+                    h2 {
+                        font-size: 2em;
+                    }
+
                 }
 
                 img {
@@ -482,6 +487,10 @@ header {
                 .conversation_text {
                     width: 40%;
                     text-align: left;
+
+                    h2 {
+                        font-size: 2em;
+                    }
                 }
 
                 img {
@@ -499,6 +508,11 @@ header {
                     width: 50%;
                     max-width: 600px;
 
+                }
+                .users_text {
+                    h2 {
+                        font-size: 2em;
+                    }
                 }
             }
 
