@@ -159,6 +159,14 @@ header {
     }
 
     @media (min-width: 1220px) {
+        .ratings {
+            margin: 0;
+
+            .rate:nth-child(1) {
+                margin: 0;
+            }
+        }
+
         .hero_text {
             h1 {
                 font-size: 2.5em;
@@ -169,6 +177,12 @@ header {
                 font-size: 1.1em;
                 padding: 36px 350px;
             }
+        }
+
+        img {
+            margin: 0 auto;
+            width: 50%;
+            max-width: 1220px;
         }
 
         button {
@@ -514,3 +528,5 @@ header {
         }
     }
 }
+
+footer {}

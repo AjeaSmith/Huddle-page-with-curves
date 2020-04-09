@@ -166,6 +166,12 @@ header button {
 }
 
 @media (min-width: 1220px) {
+  .hero .ratings {
+    margin: 0;
+  }
+  .hero .ratings .rate:nth-child(1) {
+    margin: 0;
+  }
   .hero .hero_text h1 {
     font-size: 2.5em;
     padding: 0 163px;
@@ -173,6 +179,11 @@ header button {
   .hero .hero_text p {
     font-size: 1.1em;
     padding: 36px 350px;
+  }
+  .hero img {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 1220px;
   }
   .hero button {
     padding: 0;
