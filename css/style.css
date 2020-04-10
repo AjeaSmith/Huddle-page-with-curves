@@ -195,11 +195,6 @@ header button {
     height: 50px;
     font-size: 1em;
   }
-  .hero img {
-    width: 100%;
-    margin: 0;
-    padding: 0 153px;
-  }
 }
 
 .main {
