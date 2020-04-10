@@ -59,6 +59,7 @@ header img {
 }
 
 header button {
+  background-color: white;
   color: #ff51bf;
   border: 1px solid #ff51bf;
   border-radius: 100px;
