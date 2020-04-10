@@ -671,6 +671,7 @@ footer .footer_wrapper .footer_newsletter form input {
   border: none;
   border-radius: 5px;
   margin-bottom: 14px;
+  padding: 0 1em;
 }
 
 footer .footer_wrapper .footer_newsletter form button {
